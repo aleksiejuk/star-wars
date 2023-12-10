@@ -1,0 +1,58 @@
+/* color palette */
+:root {
+  --color-white: #ffffff;
+  --color-white-soft: #edefee;
+
+  --color-black: #181818;
+  --color-dark-gray: #2c2b2b;
+  --color-light-gray: #a4a7a6;
+
+  --color-lynch: #626F8B;
+  --color-rhino: #374972;
+  --color-magenta: #f0f;
+  --color-cyan: #0ff;
+
+}
+
+/* semantic color variables for this project */
+:root {
+  --color-background: var(--color-white);
+  --color-background-soft: var(--color-white-soft);
+
+  --color-border: var(--color-dark-gray);
+  --color-border-hover: var(--color-light-gray);
+
+  --color-heading: var(--color-lynch);
+  --color-text: var(--color-dark-gray);
+
+  --section-gap: 160px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: normal;
+}
+
+body {
+  min-height: 100vh;
+  color: var(--color-text);
+  background: var(--color-background-soft);
+  transition:
+    color 0.5s,
+    background-color 0.5s;
+  line-height: 1.6;
+  font-family:
+    Inter,
+    -apple-system,
+    BlinkMacSystemFont,
+    'Kanit',
+    'Barlow',
+    sans-serif;
+  font-size: 15px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

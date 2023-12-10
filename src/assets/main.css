@@ -1,0 +1,19 @@
+@import './base.css';
+
+
+a,
+.green {
+  text-decoration: none;
+  color: var(--color-dark-gray);
+  transition: 0.4s;
+  padding: 0.25rem;
+}
+
+@media (hover: hover) {
+  a:hover {
+    color: var(--color-lynch);
+  }
+}
+
+@media (min-width: 1024px) {
+}
